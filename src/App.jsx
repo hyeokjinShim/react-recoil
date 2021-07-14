@@ -15,7 +15,6 @@ const App = () => {
   return (
     <div className={styles.appContainer}>
       <RecoilRoot>
-        {/* <TodoItemCreator /> */}
         <TodoList />
       </RecoilRoot>
     </div>
